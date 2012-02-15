@@ -1,0 +1,19 @@
+Telnet chat server (yes, telnet) written in scheme.
+
+I wrote this back when Racket was PLT Scheme. So it's kind of old, but it still works.
+
+Just load the program and run:
+$ racket
+> (load "singleThread6.scm")
+> (start)
+
+it will start a chat server on port 8081. Connect to it using telnet. Every thing you send will be broadcasted to other connected telnet sessions.
+
+To change your nick type:
+nick myNewNick
+
+To quit the chat session type:
+exit
+
+Copyright 2008-2012 Emilio Moretti <emilio.morettiATgmailDOTcom>
+This program is distributed under the terms of the GNU Lesser General Public License.
